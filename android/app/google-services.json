@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "470464174159",
+    "firebase_url": "https://foco-tarefas-p2-default-rtdb.firebaseio.com",
+    "project_id": "foco-tarefas-p2",
+    "storage_bucket": "foco-tarefas-p2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470464174159:android:faf5d926dce4ee26d5f23a",
+        "android_client_info": {
+          "package_name": "br.edu.unigran.foco_tarefas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0rfqfHSOxuNRsYa-7chnwoG5TWrYVxZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

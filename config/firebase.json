@@ -1,0 +1,9 @@
+{
+  "USE_FIREBASE_EMULATORS": "false",
+  "FIREBASE_PROJECT_ID": "foco-tarefas-p2",
+  "FIREBASE_API_KEY": "AIzaSyC64UFonT2Kgn7fhpW_KmIh-psPloyu498",
+  "FIREBASE_APP_ID": "1:470464174159:web:9a02e2780e4e384fd5f23a",
+  "FIREBASE_MESSAGING_SENDER_ID": "470464174159",
+  "FIREBASE_AUTH_DOMAIN": "foco-tarefas-p2.firebaseapp.com",
+  "FIREBASE_DATABASE_URL": "https://foco-tarefas-p2-default-rtdb.firebaseio.com"
+}

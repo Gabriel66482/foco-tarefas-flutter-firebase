@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Foco - Firebase nuvem (web)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "edge",
+      "toolArgs": [
+        "--web-hostname",
+        "127.0.0.1",
+        "--web-port",
+        "7358",
+        "--dart-define-from-file=config/firebase.json"
+      ]
+    },
+    {
+      "name": "Foco - Firebase local (web)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "edge",
+      "toolArgs": [
+        "--web-hostname",
+        "127.0.0.1",
+        "--web-port",
+        "7357",
+        "--dart-define-from-file=config/emulators.json"
+      ]
+    },
+    {
+      "name": "Foco - Android (nuvem)",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": [
+        "--dart-define-from-file=config/firebase.android.json"
+      ]
+    }
+  ]
+}
