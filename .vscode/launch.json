@@ -33,7 +33,11 @@
       "type": "dart",
       "toolArgs": [
         "--dart-define-from-file=config/firebase.android.json"
-      ]
+      ],
+      "env": {
+        "JAVA_HOME": "${workspaceFolder}/../../work/jdk/jdk-21.0.13+9",
+        "ANDROID_HOME": "${workspaceFolder}/../../work/android-sdk"
+      }
     }
   ]
 }

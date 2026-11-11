@@ -5,6 +5,7 @@ Este roteiro cobre os oito itens obrigatórios do item 7 do PDF. Nenhum vídeo f
 ## Preparação
 
 - Use a configuração **Firebase na nuvem**, conforme README. Os emuladores servem para ensaiar, mas não demonstram armazenamento na nuvem.
+- O projeto entregue já está conectado ao Firebase **foco-tarefas-p2**. No computador, escolha **Foco - Firebase nuvem (web)** no VS Code e use F5; para gravar no Android, instale o arquivo **Foco-Android.apk** entregue junto ao projeto.
 - Deixe o projeto aberto no VS Code e o aplicativo em um Android conectado ou Android Emulator. A versão web serve para ensaio; confirme com o professor se ele aceita demonstração no navegador.
 - Abra o console Firebase em Authentication e Realtime Database > Dados. Use um novo e-mail de demonstração e anote a senha sem mostrá-la no vídeo.
 - Escolha vencimentos futuros em relação ao dia da gravação. Prepare duas tarefas: **Estudar Flutter**, descrição “Revisar Drawer, ListView e models”, prioridade Alta; e **Preparar entrega da P2**, descrição “Conferir README e demonstrar Firebase”, prioridade Média.

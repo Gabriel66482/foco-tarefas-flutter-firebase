@@ -8,6 +8,8 @@ O Firebase **foco-tarefas-p2** está configurado na conta pessoal, no plano Spar
 
 No VS Code, selecione **Foco - Firebase nuvem (web)** e pressione F5. A execução usa Microsoft Edge em <http://127.0.0.1:7358>. O APK de entrega está disponível junto da pasta do projeto como `Foco-Android.apk`. Ele usa o mesmo Firebase real. Para gravar no celular, instale o APK e mantenha conexão com a internet.
 
+O APK entregue é um build **release** otimizado (53,2 MB), assinado com a chave de desenvolvimento para apresentação acadêmica. O Android foi compilado, mas não executado em dispositivo nesta sessão. Os fluxos foram exercitados na versão web conectada ao mesmo Firebase. Faça um ensaio no seu celular antes de gravar.
+
 ## Funcionalidades
 
 - Cadastro com nome, e-mail, senha e confirmação; login/logout, validação, mensagens em português e sessão persistida pelo Firebase.
@@ -80,6 +82,8 @@ Com dispositivo USB ou Android Emulator configurado:
 ./scripts/flutter.ps1 run -d ID_DO_ANDROID --dart-define-from-file=config/firebase.android.json
 ./scripts/flutter.ps1 build apk --debug --dart-define-from-file=config/firebase.android.json
 ```
+
+Para reproduzir o APK otimizado entregue, use `./scripts/flutter.ps1 build apk --release --dart-define-from-file=config/firebase.android.json`. O arquivo gerado será `build/app/outputs/flutter-apk/app-release.apk`.
 
 O APK sai em `build/app/outputs/flutter-apk/app-debug.apk`. A assinatura de debug é de desenvolvimento; publicação em loja exige assinatura própria.
 
